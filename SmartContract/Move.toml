@@ -1,0 +1,11 @@
+[package]
+name = "Memeverse"
+version = "0.0.1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }
+
+[addresses] 
+std =  "0x1"
+addr = "0x563873026c9896af342c725805826752479eee07baf65d18f04ac1e313d09b99"
+
